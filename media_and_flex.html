@@ -6,9 +6,17 @@
     <title>Media and flex</title>
 
     <style type="text/css">
-        body{
-            background-color: white;
+        * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
         }
+
+       
         .flex-container {
             display: -webkit-flex;
             display: flex;
@@ -48,6 +56,10 @@
                 -webkit-flex-wrap:wrap;
                 display: flex;
                 flex-wrap:wrap;
+                align-items: stretch;
+            }
+            .light_green, .blue, .orange, .red, .light_blue{
+                height:33.33vh;
             }
 
         }
